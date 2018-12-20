@@ -1,8 +1,8 @@
 FROM nginx:latest
 
-# ARG HOST_PORT
-# ARG BACKEND_HOST_NAME
-# ARG BACKEND_HOST_PORT
+ARG HOST_PORT
+ARG BACKEND_HOST_NAME
+ARG BACKEND_HOST_PORT
 
 # COPY default.conf /etc/nginx/conf.d/default.conf.template
 
